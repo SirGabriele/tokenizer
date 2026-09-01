@@ -15,21 +15,21 @@ test network**.
 
 ## Goals
 
-The main objectives of this project are to:
+The main objectives of this project are to :
 
-* Understand the fundamentals of blockchain and Web3.
-* Create a custom ERC-20 token.
-* Write and deploy a smart contract.
-* Interact with the deployed token on a public test network.
+- Understand the fundamentals of blockchain and Web3.
+- Create a custom ERC-20 token.
+- Write and deploy a smart contract.
+- Interact with the deployed token on a public test network.
 
 ## Tools & Technologies
 
-* **Solidity** — Primary language used to develop smart contracts for Ethereum.
-* **REMIX IDE** — Development, compilation, deployment and interaction environment for the smart contract.
-* **Ethereum Sepolia** — Public Ethereum test network used for deployment.
-* **Google Cloud** — Used to obtain Sepolia ETH for testing and deployment.
-* **Sepolia Testnet Explorer** — Used to inspect and interact with the deployed contract.
-* **Metamask** — Software cryptocurrency wallet used to interact with the Ethereum blockchain.
+- **Solidity** — Primary language used to develop smart contracts for Ethereum.
+- **Remix IDE** — Development, compilation, deployment and interaction environment for the smart contract.
+- **Ethereum Sepolia** — Public Ethereum test network used for deployment and interact with the deployed contract.
+- **Google Cloud** — Used to obtain Sepolia ETH for testing and deployment.
+- **Etherscan** — Used to inspect and interact with the deployed contract.
+- **Metamask** — Software cryptocurrency wallet used to interact with the Ethereum blockchain.
 
 ---
 
@@ -37,23 +37,26 @@ The main objectives of this project are to:
 
 ```text
 .
-├── code/           # contract linked code
-├── deployment/     # deployment procedure
-├── documentation/  # miscellaneous information TODO compléter cette description une fois le dossier rempli
-└── README.md       # description of the project
+├── code/                   # contract's source code
+    └── Nexus42.sol
+├── deployment/             # deployment procedure
+    └── deployment.md
+├── documentation/          # miscellaneous information
+    ├── etherscan.md
+    ├── Nexus42.md
+    └── token_standard.md
+└── README.md               # description of the project
 ```
 
 ---
 
 ## Documentation
 
-For more detailed information, please see:
+For more detailed information, please see :
 
-[//]: # (TODO compléter ces hyperliens une fois que des fichiers existeront)
-
-* [Smart Contract](code/)
-* [Deployment Documentation](deployment/)
-* [Documentation](documentation/)
+- [Smart Contract](code/Nexus42.sol)
+- [How to deploy ?](deployment/deployment.md)
+- [What is the Nexus42 token ?](documentation/Nexus42.md)
 
 ---
 
@@ -69,5 +72,3 @@ For more detailed information, please see:
 | `Decimals`         | 18                                         |
 | `Max supply`       | $1764 \times 10^{18}$                      |
 | `Initial supply`   | $42 \times 10^{18}$                        |
-
-Why a max supply of 1764? It simply is $42^{2}$.
