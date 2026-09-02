@@ -1,20 +1,20 @@
-# Why use Ethereum chain ?
+# Why use Ethereum blockchain ?
 
-Due to temporary non-availability, I was not able to access a working faucet on the BNB Smart Chain. This led me
-to use the **Ethereum** chain.
+At the time of development, I was not able to access a working faucet for the BNB Smart Chain. This led me
+to use the **Ethereum** blockchain instead, more precisely the **Sepolia** testnet.
 
-On this chain, the most widely used [token standard][1] is ERC-20. By implementing standardized functions such as
+On [Ethereum][1], ERC-20 is the standard commonly used for fungible tokens. By implementing standardized functions such as
 `transfer`, `approve`, `transferFrom` and `balanceOf`, the contract can interact seamlessly with wallets, and other
 decentralized applications without requiring custom integrations. This improves interoperability, usability and adoption
 while also making the contract easier for other developers to understand and integrate.
 
 
 These standardized functions can be inherited from OpenZeppelin's [ERC20][3] contract. However, for learning purposes,
-I chose to implement manually the functions provided in the ERC-20 most basic interface, [IERC20][2].
+I chose to implement manually the functions provided in the [IERC20][2] interface, which is inherited by the ERC20 contract.
 
-**OpenZeppelin** is one of the most widely used libraries of secure, reusable Solidity contracts and interfaces for 
-Ethereum blockchain. It provides implementations for common standards such as ERC-20, ERC-721, access control,
-ownership, cryptography and more.
+**OpenZeppelin** is one of the most widely used libraries of security-oriented, reusable Solidity contracts and
+interfaces for the Ethereum blockchain. It provides implementations for common standards such as ERC-20, ERC-721,
+access control, ownership and more.
 
 ---
 

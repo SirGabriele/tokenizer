@@ -29,7 +29,7 @@ The main objectives of this project are to :
 - **Ethereum Sepolia** — Public Ethereum test network used for deployment and interact with the deployed contract.
 - **Google Cloud** — Used to obtain Sepolia ETH for testing and deployment.
 - **Etherscan** — Used to inspect and interact with the deployed contract.
-- **Metamask** — Software cryptocurrency wallet used to interact with the Ethereum blockchain.
+- **MetaMask** — Software cryptocurrency wallet used to interact with the Ethereum blockchain.
 
 ---
 
