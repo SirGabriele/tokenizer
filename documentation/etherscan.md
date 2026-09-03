@@ -15,7 +15,7 @@ Etherscan can be used to:
 - **Track token activity** — Follow `Transfer` and `Approval` events emitted by the Nexus42 contract.
 - **Validate deployment** — Confirm that the deployed bytecode corresponds to the verified Solidity source code.
 
-The Etherscan page for our deployed contract's Etherscan page can be found [here][1].
+The Etherscan page for our deployed contract can be found [here][1].
 
 ![Contract's page](../assets/etherscan/etherscan_contract_page.png)
 
